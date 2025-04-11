@@ -80,9 +80,17 @@ body {
 /* addition section */
 /* addition section */
 .projects-container {
-  max-width: 80rem; /* Adjust this value as per your design */
-  margin: 0 auto; /* Center the container */
-  padding: 0 1rem; /* Add some padding on the sides */
+  display: grid;
+  grid-template-columns: auto 1fr; /* Create two columns: one for the number and one for the content */
+  gap: 1rem; /* Add space between the columns */
+}
+
+.project-inner {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Create two columns: number on the left and content on the right */
+}
+.project-details {
+  grid-column: 2 / 3; /* Put the description and tech in the second column */
 }
 
 .project {
