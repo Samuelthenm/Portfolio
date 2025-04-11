@@ -130,12 +130,11 @@ body {
 }
 
 .project-description {
-  font-family: inherit; /* Inherit font family from body or title */
-  font-size: inherit; /* Inherit font size */
-  color: inherit; /* Inherit color */
-  margin-top: 0.5rem; /* Small space above the description */
+  font-family: "lora-regular", serif;
+  font-size: 1.7rem;
+  color: #6e6e6e;
   margin-bottom: 0; /* No margin at the bottom */
-  line-height: inherit; /* Inherit line height */
+  line-height: 3rem;
 }
 
 /* Styling for the <hr> */
