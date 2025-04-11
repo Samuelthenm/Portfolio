@@ -92,6 +92,10 @@ body {
   transform: scale(1.05); /* Slightly scale up on hover for added effect */
 }
 
+.project:hover .project-title {
+  color: #FF0000; /* Change color to red when the project is hovered */
+}
+
 .project-number {
   font-size: 1.5rem; /* 24px in rem */
   color: #380000; /* Darker red for project number */
@@ -108,10 +112,6 @@ body {
   position: relative;
   transition: color 0.4s ease, transform 0.4s ease;
   margin-bottom: 0.25rem; /* Reduced spacing below the title */
-}
-
-.project-title:hover {
-  color: #FF0000; /* Change to bright red on hover */
 }
 
 .project-tech {
