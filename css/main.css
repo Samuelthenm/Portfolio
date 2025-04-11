@@ -113,6 +113,7 @@ body {
 
 .project-tech {
   margin-top: 0.25rem; /* Reduced spacing above the tech stack */
+	font-family: "poppins-bold", sans-serif;
   font-size: 1.3rem; /* Adjusted to the new size */
   color: #380000; /* Changed to dark red */
   display: block; /* Ensure it is displayed below the title */
@@ -121,6 +122,10 @@ body {
 .project-tech span {
   margin-right: 1rem; /* Adjusted spacing */
   display: inline-block;
+}
+
+.project-description {
+  margin-right: 0;
 }
 
 /* Styling for the <hr> */
