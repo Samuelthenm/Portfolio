@@ -90,6 +90,10 @@ body {
   transition: transform 0.4s ease-in-out; /* Smooth scaling transition */
 }
 
+.project a {
+  font-weight: normal;
+}
+
 .project:hover {
   transform: scale(1.05); /* Slightly scale up on hover */
 }
@@ -132,6 +136,7 @@ body {
 .project-description {
   font-family: "lora-regular", serif;
   font-size: 1.7rem;
+	font-weight: normal;
   color: #6e6e6e;
   margin-bottom: 0; /* No margin at the bottom */
   line-height: 3rem;
