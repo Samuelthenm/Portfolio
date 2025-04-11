@@ -81,7 +81,7 @@ body {
 /* addition section */
 .projects-container {
   display: grid;
-  grid-template-columns: auto 1fr; /* Create two columns: one for the number and one for the content */
+  grid-template-columns: auto; /* Create two columns: one for the number and one for the content */
   gap: 1rem; /* Add space between the columns */
 }
 
@@ -112,6 +112,11 @@ body {
   color: #FF0000; /* Change color to red when the project is hovered */
 }
 
+.project-inner:hover .project-title,
+.project-inner:hover .project-tech,
+.project-inner:hover .fas {
+  color: #FF0000; /* Change color to red when the project is hovered */
+}
 
 .project-number {
   font-size: 1.5rem; /* 24px in rem */
