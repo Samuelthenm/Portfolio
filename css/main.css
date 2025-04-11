@@ -77,19 +77,61 @@ body {
 	color: #6e6e6e;
 }
 
-/* addition gradient project section */
-    .gradient-text {
-      background-image: linear-gradient(to right, #7f1d1d, #ef4444); /* dark red to bright red */
-      background-size: 200%;
-      background-position: right;
-      transition: background-position 0.7s ease-in-out;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
+/* addition section */
+.projects-container {
+  max-width: 80rem; /* Adjust this value as per your design */
+  margin: 0 auto; /* Center the container */
+  padding: 0 1rem; /* Add some padding on the sides */
+}
 
-    .group:hover .gradient-text {
-      background-position: left;
-    }
+.project {
+  margin-bottom: 2rem; /* Adjusted spacing between projects */
+}
+
+.project-number {
+  font-size: 1.5rem; /* 24px in rem */
+  color: #380000; /* Darker red for project number */
+  font-weight: normal; /* Removed bold styling */
+  margin-right: 1rem; /* Space between number and title */
+  display: inline-block;
+}
+
+.project-title {
+  font-size: 3rem; /* 48px in rem */
+  font-weight: bold;
+  color: #800020; /* New color for project title */
+  display: inline-block;
+  position: relative;
+  transition: color 0.4s ease, transform 0.4s ease;
+  margin-bottom: 0.25rem; /* Reduced spacing below the title */
+}
+
+.project-title:hover {
+  color: #FF0000; /* Change to bright red on hover */
+  transform: scale(1.05); /* Slightly scale up on hover for added effect */
+}
+
+.project-tech {
+  margin-top: 0.25rem; /* Reduced spacing above the tech stack */
+  font-size: 1.3rem; /* Adjusted to the new size */
+  color: #380000; /* Changed to dark red */
+  display: block; /* Ensure it is displayed below the title */
+}
+
+.project-tech span {
+  margin-right: 1rem; /* Adjusted spacing */
+  display: inline-block;
+}
+
+/* Styling for the <hr> */
+hr {
+  border: 0;
+  border-top: 1px solid #333; /* Gray thin line */
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+
 /**
  * links - (_document-setup.scss)
  * -------------------------------------------------------------------
