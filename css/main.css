@@ -88,6 +88,10 @@ body {
   margin-bottom: 2rem; /* Adjusted spacing between projects */
 }
 
+.project:hover {
+  transform: scale(1.05); /* Slightly scale up on hover for added effect */
+}
+
 .project-number {
   font-size: 1.5rem; /* 24px in rem */
   color: #380000; /* Darker red for project number */
@@ -108,7 +112,6 @@ body {
 
 .project-title:hover {
   color: #FF0000; /* Change to bright red on hover */
-  transform: scale(1.05); /* Slightly scale up on hover for added effect */
 }
 
 .project-tech {
