@@ -77,6 +77,29 @@ body {
 	color: #6e6e6e;
 }
 
+/* addition gradient project section */
+:root {
+  --primary: #380000;
+  --foreground: #800020;
+}
+
+h4 {
+  font-size: 2rem; /* Example text size */
+  display: flex;
+  gap: 1rem;
+  font-family: 'Anton', sans-serif;
+  background: linear-gradient(to right, var(--primary) 50%, var(--foreground) 50%);
+  background-size: 200%;
+  background-position: 100% 50%;
+  background-clip: text;
+  color: transparent;
+  transition: all 0.7s ease;
+}
+
+h4:hover {
+  background-position: 0 50%;
+}
+
 /**
  * links - (_document-setup.scss)
  * -------------------------------------------------------------------
