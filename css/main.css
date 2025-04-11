@@ -128,7 +128,12 @@ body {
 }
 
 .project-description {
-  margin-bottom: 0;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  margin-top: inherit;
+  margin-bottom: 0; /* No margin at the bottom */
+  line-height: inherit;
 }
 
 /* Styling for the <hr> */
