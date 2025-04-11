@@ -78,6 +78,7 @@ body {
 }
 
 /* addition section */
+/* addition section */
 .projects-container {
   max-width: 80rem; /* Adjust this value as per your design */
   margin: 0 auto; /* Center the container */
@@ -86,10 +87,11 @@ body {
 
 .project {
   margin-bottom: 2rem; /* Adjusted spacing between projects */
+  transition: transform 0.4s ease-in-out; /* Smooth scaling transition */
 }
 
 .project:hover {
-  transform: scale(1.05); /* Slightly scale up on hover for added effect */
+  transform: scale(1.05); /* Slightly scale up on hover */
 }
 
 .project:hover .project-title {
@@ -116,7 +118,7 @@ body {
 
 .project-tech {
   margin-top: 0.25rem; /* Reduced spacing above the tech stack */
-	font-family: "poppins-bold", sans-serif;
+  font-family: "poppins-bold", sans-serif;
   font-size: 1.3rem; /* Adjusted to the new size */
   color: #380000; /* Changed to dark red */
   display: block; /* Ensure it is displayed below the title */
@@ -128,12 +130,12 @@ body {
 }
 
 .project-description {
-  font-family: inherit;
-  font-size: inherit;
-  color: inherit;
-  margin-top: inherit;
+  font-family: inherit; /* Inherit font family from body or title */
+  font-size: inherit; /* Inherit font size */
+  color: inherit; /* Inherit color */
+  margin-top: 0.5rem; /* Small space above the description */
   margin-bottom: 0; /* No margin at the bottom */
-  line-height: inherit;
+  line-height: inherit; /* Inherit line height */
 }
 
 /* Styling for the <hr> */
@@ -143,6 +145,7 @@ hr {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
+
 
 
 /**
