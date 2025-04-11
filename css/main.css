@@ -98,7 +98,7 @@ body {
   transform: scale(1.05); /* Slightly scale up on hover */
 }
 
-.project:hover .project-title {
+.project:hover .project-title .project-tech {
   color: #FF0000; /* Change color to red when the project is hovered */
 }
 
