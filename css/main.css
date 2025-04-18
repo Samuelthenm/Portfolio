@@ -1701,31 +1701,24 @@ header .logo a {
   padding: 0 14px 0 8px;
   color: rgba(255, 255, 255, 0.3);
 }
-.intro-content .button {
-  color: #ffffff !important;
-  border-color: rgba(255, 255, 255, 0.3);
-  height: 6rem !important;
-  line-height: 5.4rem !important;
-  padding: 0 3.5rem 0 3rem !important;
-  margin-top: .6rem;
-  font-size: 1.3rem;
-  text-transform: uppercase;
-  letter-spacing: .25rem;
-}
-.intro-content .button:hover,
-.intro-content .button:focus {
+.intro-content .button.red {
   border-color: #800020;
+  color: #800020;
 }
-.intro-content .button::after {
-  display: inline-block;
-  content: "\f107";
+
+.intro-content .button.red:hover,
+.intro-content .button.red:focus {
+  border-color: #ff0000; /* optional: brighter red on hover */
+  color: #ff0000;
+}
+
+.intro-content .button.red::after {
+  content: "\f101"; /* Optional: angle-right arrow */
   font-family: fontAwesome;
-  font-size: 1.6rem;
-  line-height: inherit;
-  text-align: center;
-  position: relative;
-  left: 1.2rem;
+  color: #800020;
 }
+
+
 
 .intro-social {
   display: block;
